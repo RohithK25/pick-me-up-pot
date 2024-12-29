@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-purple-500/20 to-pink-500/20">
       <h1 className="text-3xl md:text-4xl font-bold text-[#1A1F2C] mb-8 text-center">
-        Emotional Support Jar
+        Pick-Me-Up Pot
       </h1>
       
       <EmotionJar onEmotionSelect={handleEmotionSelect} />
