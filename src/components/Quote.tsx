@@ -16,7 +16,7 @@ export const Quote = ({ text, className }: QuoteProps) => {
         className
       )}
     >
-      <p className="text-xl font-medium text-white/90">{text}</p>
+      <p className="text-xl font-medium text-[#403E43]">{text}</p>
     </div>
   );
 };
